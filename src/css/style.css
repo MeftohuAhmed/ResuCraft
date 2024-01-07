@@ -1,0 +1,308 @@
+/* Importing fonts and CSS reset */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+@import url("../css/reset.css");
+
+/* Define global styles */
+body {
+  font-family: "Inter", sans-serif; /* Set the primary font */
+  font-family: "Roboto", sans-serif; /* Fallback font if Inter fails */
+}
+
+:root {
+  --text-font-weight: 800; /* Define a custom CSS variable for text font weight */
+  --text-color: #000000; /* Define a custom CSS variable for text color */
+  --primary-clr: #f26d85; /* Define a custom CSS variable for primary color */
+}
+
+/* Override styles for specific input elements */
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 86px !important; /* Increase border-radius for specific input */
+}
+
+.text-input {
+  font-size: 1.2rem !important; /* Increase font size for text input */
+  font-weight: 700 !important; /* Set font weight for text input */
+  color: var(--text-color) !important; /* Use custom text color for text input */
+  margin-left: 25px; /* Add left margin to text input */
+}
+
+/* Styling for countries-input */
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 30px !important; /* Customize border-radius for countries input */
+}
+
+/* Styling for Multistep text */
+.multisteper-text p:first-of-type {
+  font-size: 2.188rem; /* Define font size for the first paragraph */
+  font-weight: 700; /* Set font weight for the first paragraph */
+}
+
+.multisteper-text p:nth-of-type(2) {
+  font-size: 1.125rem; /* Define font size for the second paragraph */
+  font-weight: 700; /* Set font weight for the second paragraph */
+  margin-bottom: 5rem; /* Add bottom margin to the second paragraph */
+  margin-top: -1.2rem; /* Adjust top margin of the second paragraph */
+}
+
+.multisteper-text {
+  text-align: center; /* Center-align the text */
+  margin-top: 4rem; /* Add top margin to the text */
+}
+
+/* Styling for template image */
+.template-img {
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0;
+  padding: 0;
+}
+
+.template-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Override styles for specific input elements */
+.css-d0cqrw-MuiInputBase-root-MuiInput-root,
+.css-1tcs2i1-MuiInputBase-root-MuiInput-root {
+  width: 50% !important; /* Set width for specific inputs */
+}
+
+/* Remove border and outline for specific input elements */
+.css-d0cqrw-MuiInputBase-root-MuiInput-root:before,
+.css-d0cqrw-MuiInputBase-root-MuiInput-root::after {
+  border: 0 !important;
+}
+
+/* Styling for countries-input */
+.countries-input {
+  border: #000000 !important; /* Set border color for countries input */
+}
+
+.countries-input:focus {
+  outline: none; /* Remove outline when focused */
+}
+
+/* Styling for generic input elements */
+input {
+  border: 1px solid var(--text-color) !important; /* Set border style */
+  padding: 9px 25px !important; /* Add padding to input */
+  border-radius: 30px; /* Set border-radius */
+}
+
+input:focus {
+  outline: 1px solid #f26d85 !important; /* Highlight input on focus */
+  border: 0 !important; /* Remove border when focused */
+}
+
+/* Styling for focused items */
+.item:focus-within > :first-child,
+.skills:focus-within > :first-child {
+  color: #f26d85 !important; /* Change color on focus */
+}
+
+/* Styling for date items when focused */
+.date-item:focus-within label {
+  color: #f26d85 !important; /* Change label color on focus */
+}
+
+.date-item:focus-within input {
+  outline: 1px solid #f26d85; /* Highlight input on focus */
+  border: 0 !important; /* Remove border when focused */
+}
+
+.skills {
+  margin-bottom: 10px; /* Add margin to skills section */
+  margin-top: 25px; /* Add top margin to skills section */
+}
+
+/* Override styles for specific input elements */
+.css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root,
+.rti--container {
+  border: 0.01px solid #000000 !important; /* Set border style for specific elements */
+  border-radius: 30px !important; /* Set border-radius */
+}
+
+/* Styling for focused input elements */
+.css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root:focus-within,
+.rti--container:focus-within {
+  outline: 1px solid #f26d85 !important; /* Highlight element on focus */
+  border: 0 !important; /* Remove border on focus */
+  border-radius: 40px; /* Adjust border-radius */
+  transition: none !important; /* Remove transition effect */
+  box-shadow: none !important; /* Remove box-shadow */
+}
+
+/* Styling for label margin */
+.label-margin {
+  margin-left: 1.5rem; /* Add left margin to labels */
+}
+
+/* Styling for form group */
+.form-group {
+  padding: 20px 20px 20px 20px; /* Add padding to form group */
+  border: 1px solid #ccbebe; /* Set border style */
+  border-radius: 20px; /* Set border-radius */
+  margin-top: 50px; /* Add top margin to form group */
+}
+
+/* Styling for input with class 'rti--input' */
+input.rti--input {
+  border: 0 !important; /* Remove border */
+  width: 100%; /* Set width to 100% */
+}
+
+input.rti--input:focus {
+  outline: none !important; /* Remove outline on focus */
+}
+
+/* Styling for tags */
+.rti--tag {
+  padding: 5px 0px 5px 5px !important; /* Add padding to tags */
+  margin-left: 8px !important; /* Add left margin to tags */
+  background: #d9d9d9 !important; /* Set background color for tags */
+  color: #00000066 !important; /* Set text color for tags */
+}
+
+.rti--tag button {
+  position: relative !important;
+  top: -13px !important;
+  right: -9px !important;
+  background: #afaeae !important;
+  color: #000000 !important;
+  padding: 1px 4px !important;
+  font-size: 0.6rem !important;
+  font-weight: bold !important;
+}
+
+/* Styling for container with class 'rti--container' */
+.rti--container {
+  padding: 15px 15px !important; /* Add padding to container */
+  height: 90px; /* Set container height */
+  align-items: flex-start !important; /* Align items to flex-start */
+  overflow-y: auto; /* Enable vertical scroll if necessary */
+  scroll-behavior: smooth; /* Smooth scrolling behavior */
+  margin: 0 1px; /* Add margin to container */
+}
+
+/* Styling for desktopPicker */
+.desktopPicker {
+  border: none !important; /* Remove border for desktopPicker */
+}
+
+.end-date-label {
+  margin-left: 60px; /* Add left margin to end-date label */
+}
+
+/* Styling for date-picker */
+.date-picker {
+  border: 1px solid black; /* Set border style for date-picker */
+  border-radius: 30px; /* Set border-radius */
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .date-picker input {
+    margin: 0 !important; /* Remove margin for smaller screens */
+    white-space: nowrap; /* Prevent line breaks */
+  }
+}
+
+.date-picker input {
+  border: none !important; /* Remove border for date-picker input */
+  outline: none !important; /* Remove outline on focus */
+}
+
+.date-picker:focus-within {
+  border: 0 !important; /* Remove border on focus */
+  outline: #f26d85 1px solid; /* Highlight on focus */
+}
+
+/* Styling for Formik error text */
+.error-text {
+  color: red; /* Set text color to red */
+  font-size: 12px; /* Set font size */
+  margin: 8px 0 -15px 25px; /* Adjust margins */
+}
+
+/* Styling for color picker button */
+.css-tor0fq-MuiButtonBase-root-MuiButton-root {
+  background-color: #f26d85; /* Set background color */
+}
+
+input[type="color"] {
+  border: 0 !important; /* Remove border for color input */
+  height: 1.5em; /* Set height */
+  padding: 0 !important; /* Remove padding */
+}
+
+/* Remove borders for color input */
+.css-15tm82w-MuiInputBase-root-MuiInput-root:before,
+.css-15tm82w-MuiInputBase-root-MuiInput-root::after {
+  border: 0 !important;
+}
+
+input[type="color"]:focus {
+  border: 0 !important; /* Remove border on focus */
+}
+
+.color-lable {
+  text-transform: capitalize !important; /* Capitalize text */
+}
+
+/* Styling for Next button on hover */
+.css-1bdl40q-MuiButtonBase-root-MuiButton-root:hover {
+  background: #f26d85 !important; /* Change background color on hover */
+}
+
+/* Styling for download dropdown */
+.drobdown {
+  position: relative; /* Set position to relative */
+  display: inline-block; /* Display as inline block */
+  margin-left: 405px; /* Adjust left margin */
+}
+
+.dropdown-content {
+  display: none; /* Hide dropdown content by default */
+  background: #f1f1f1; /* Set background color for dropdown */
+  min-width: 110px; /* Set minimum width */
+  position: absolute; /* Set position to absolute */
+  z-index: 1; /* Set z-index to ensure it's above other elements */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.dropdown-content a {
+  display: block; /* Display as block element */
+  color: #000; /* Set text color */
+  text-decoration: none; /* Remove text decoration */
+  padding: 12px; /* Add padding to dropdown items */
+}
+
+.dropdown-content a:hover {
+  background: #ddd; /* Change background color on hover */
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change background color of dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background: #3e8341;
+}
+
+/* Styling for step icons */
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  color: #979ADD !important; /* Set color for step icons */
+}
+
+/* Styling for active and completed step icons */
+.Mui-active .MuiStepIcon-root,
+.Mui-completed .MuiStepIcon-root {
+  color: #4951F5 !important; /* Set color for active and completed step icons */
+}

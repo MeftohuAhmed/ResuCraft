@@ -1,0 +1,157 @@
+/* Remove border from before and after pseudo-elements */
+.css-sje21u-MuiInputBase-root-MuiInput-root:before,
+.css-sje21u-MuiInputBase-root-MuiInput-root:after {
+  border: 0 !important;
+}
+
+/* Add border to input elements with popup or clear icons */
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root .MuiAutocomplete-inputRoot,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root .MuiAutocomplete-inputRoot {
+  border: 1px solid black !important;
+}
+
+/* Remove border from input elements with popup or clear icons when focused */
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root .MuiAutocomplete-inputRoot,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root .MuiAutocomplete-inputRoot:focus {
+  border: 0 !important;
+}
+
+/* Remove padding for input elements with popup or clear icons */
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding: 0px !important;
+}
+
+/* Remove outline and border for focused outlined input */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  outline: 0;
+  border: 0;
+}
+
+/* Apply a custom border radius to input elements */
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 30px !important;
+}
+
+/* Remove border from before and after pseudo-elements */
+.css-1nvjk1h-MuiInputBase-root-MuiInput-root::before,
+.css-1nvjk1h-MuiInputBase-root-MuiInput-root::after {
+  border: 0 !important;
+}
+
+/* Add border, padding, and custom border-radius to input elements */
+.css-1nvjk1h-MuiInputBase-root-MuiInput-root {
+  border: 1px solid var(--text-color) !important;
+  padding: 11px 25px !important;
+  border-radius: 30px;
+}
+
+/* Uncomment the following code if you want to apply styles on focus */
+/*
+.css-1nvjk1h-MuiInputBase-root-MuiInput-root:focus {
+    outline: 2px solid #f26d85 !important;
+    background-color: #F26D85;
+    border: 0 !important;
+}
+*/
+
+/* Uncomment the following code if you want to remove border and outline on focus */
+/*
+.css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+  border: 0px solid black !important;
+  outline: 0 !important;
+}
+*/
+
+/* Uncomment the following code if you want to remove border and outline on focus */
+/*
+.css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+  border: 0 !important;
+  outline: 0 !important;
+}
+*/
+
+/* Remove border from form control */
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+  border: 0;
+}
+
+/* Remove bottom border from input elements */
+.css-1tcs2i1-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 0 !important;
+}
+
+/* Remove border from before and after pseudo-elements */
+.css-1tcs2i1-MuiInputBase-root-MuiInput-root:after {
+  border: 0 !important;
+}
+
+/* Disable transition for rti-container */
+.rti--container {
+  transition: none !important;
+}
+
+/* Remove border from notched outline */
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 0 !important;
+}
+
+/* Add padding to grid items */
+.css-480o17-MuiGrid-root > .MuiGrid-item {
+  padding: 10px 10px;
+}
+
+/* Uncomment the following code if you want to apply styles on focus within notched outline */
+/*
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline:focus-within {
+  border: 0 !important;
+}
+*/
+
+/* Remove border from notched outline in date-picker */
+.date-picker .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 0 !important;
+}
+
+/* Uncomment the following code if you want to apply styles on focus within notched outline in date-picker */
+/*
+.date-picker .css-1d3z3hw-MuiOutlinedInput-notchedOutline:focus-within {
+  border: 1px solid red !important;
+}
+*/
+
+/* Adjust width of form labels */
+.css-1foa3kv-MuiFormLabel-root-MuiInputLabel-root {
+  width: 50% !important;
+}
+
+/* Add margin-bottom to elements with class css-2royc9 */
+.css-2royc9 {
+  margin-bottom: 30px !important;
+}
+
+/* Set overflow-y to auto for grid root with class css-1hslvfu-MuiGrid-root */
+.css-1hslvfu-MuiGrid-root {
+  overflow-y: auto;
+}
+
+/* Set max-width and remove margin for grid root */
+.css-480o17-MuiGrid-root {
+  max-width: 100%;
+  margin: 0 !important;
+}
+
+/* Add padding to grid items */
+.css-480o17-MuiGrid-root > .MuiGrid-item {
+  padding: 25px 15px 0 15px !important;
+}
+
+/* Set width to 100% for form control with class css-1u3bzj6-MuiFormControl-root-MuiTextField-root */
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+/* Apply styles to color picker */
+.css-84xvl2-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 0 !important;
+}
